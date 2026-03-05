@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.3.11520.95 d18.3
+VisualStudioVersion = 18.3.11520.95
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArrayFile", "ArrayFile\ArrayFile.vcxproj", "{D1E89139-56BE-459F-A881-22B9D6504EF9}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Task1", "Task1\Task1.vcxproj", "{1B911197-A92C-4DCA-8DA0-E9F3F99A2B01}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Task33", "Task33\Task33.vcxproj", "{DA274A0F-6446-4957-B6DA-8D25372ADDBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,14 @@ Global
 		{1B911197-A92C-4DCA-8DA0-E9F3F99A2B01}.Release|x64.Build.0 = Release|x64
 		{1B911197-A92C-4DCA-8DA0-E9F3F99A2B01}.Release|x86.ActiveCfg = Release|Win32
 		{1B911197-A92C-4DCA-8DA0-E9F3F99A2B01}.Release|x86.Build.0 = Release|Win32
+		{DA274A0F-6446-4957-B6DA-8D25372ADDBF}.Debug|x64.ActiveCfg = Debug|x64
+		{DA274A0F-6446-4957-B6DA-8D25372ADDBF}.Debug|x64.Build.0 = Debug|x64
+		{DA274A0F-6446-4957-B6DA-8D25372ADDBF}.Debug|x86.ActiveCfg = Debug|Win32
+		{DA274A0F-6446-4957-B6DA-8D25372ADDBF}.Debug|x86.Build.0 = Debug|Win32
+		{DA274A0F-6446-4957-B6DA-8D25372ADDBF}.Release|x64.ActiveCfg = Release|x64
+		{DA274A0F-6446-4957-B6DA-8D25372ADDBF}.Release|x64.Build.0 = Release|x64
+		{DA274A0F-6446-4957-B6DA-8D25372ADDBF}.Release|x86.ActiveCfg = Release|Win32
+		{DA274A0F-6446-4957-B6DA-8D25372ADDBF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
