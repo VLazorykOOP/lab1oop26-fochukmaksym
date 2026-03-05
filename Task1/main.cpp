@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    inputArray();
+    inputArray();//solveTask();
 
     return 0;
 }
