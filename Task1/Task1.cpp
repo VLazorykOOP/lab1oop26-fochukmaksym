@@ -2,10 +2,34 @@
 //
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    int N;
+    cout << "Enter N:";
+    cin >> N;
+
+    int A[100], B[100];
+
+    cout << "Enter" << 2 * N << "elements of array A:\n";
+    for (int i = 0; i < 2 * N; i++) {
+        cin >> A[i];
+    }
+    //Переношу другу половину А в першу половину В
+
+    for (int i = 0; i < N; i++) {
+        B[i] = A[i + N];
+    }
+    //Переношу першу половину А в другу полвовину В
+    for (int i = 0; i < N; i++) {
+        B[i + N] = A[i];
+    }
+    cout << "Array B:\n";
+    for (int i = 0; i < 2 * N; i++) {
+        cout << B[i] << " ";
+    }
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
