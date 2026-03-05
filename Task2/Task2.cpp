@@ -2,10 +2,52 @@
 //
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    int n;
+
+    cout << "Enter size: ";
+    cin >> n;
+
+    int* A = new int[n];
+
+    cout << "Enter elements:\n";
+
+    for (int i = 0; i < n; i++)
+        cin >> A[i];
+
+    int zeroIndex = -1;
+
+    // шукаємо перший 0
+    for (int i = 0; i < n; i++)
+    {
+        if (A[i] == 0)
+        {
+            zeroIndex = i;
+            break;
+        }
+    }
+
+    int min = 1000000;
+    int index = -1;
+
+    // шукаємо мінімальний додатний правіше нуля
+    for (int i = zeroIndex + 1; i < n; i++)
+    {
+        if (A[i] > 0 && A[i] < min)
+        {
+            min = A[i];
+            index = i;
+        }
+    }
+
+    cout << "Index: " << index;
+
+    delete[] A;
+
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
