@@ -95,7 +95,9 @@ void task2()
             break;
         }
     }
-
+  if (zero == -1)  cout<<" nema zero \n" ;
+  else
+  {
     int min = 100000;
     int index = -1;
 
@@ -109,7 +111,8 @@ void task2()
     }
 
     cout << "Index = " << index << endl;
-
+  }
+    
     delete[] A;
 }
 
@@ -131,7 +134,7 @@ void task3()
         {
             if (first == -1)
                 first = i;
-
+                else 
             last = i;
         }
     }
@@ -148,6 +151,7 @@ void task3()
         sum += A[i];
 
     cout << "Sum = " << sum << endl;
+   //  delete  ???
 }
 
 // вектор
